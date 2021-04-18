@@ -823,7 +823,7 @@ address {
 }
 
 .form-input:focus + .modal-icon {
-   fill: var(--accent-color);
+    fill: var(--accent-color);
     transition: var(--animation-time) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -865,7 +865,7 @@ address {
 .custom-checkbox:checked+label::before {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
-  background-image: url(/images/icon-checkbox.svg);
+  background-image: url(/images/icons/icon-checkbox.svg);
   background-size: contain;
   background-origin: border-box;
 }
