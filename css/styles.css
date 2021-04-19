@@ -858,14 +858,15 @@ address {
   border-radius: 2px;
   margin-right: 8px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: 50% 50%;
 }
 
 .custom-checkbox:checked+label::before {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
-  background-image: url(/images/icons/icon-checkbox.svg);
+  background-image: url(/images/icons/icon-checkbox-copy.svg);
+  color: var(--main-bg-color);
   background-size: contain;
   background-origin: border-box;
 }
